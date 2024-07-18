@@ -20,7 +20,7 @@ export default function Contact() {
   };
   
   return (
-    <div className='min-h-screen mt-20 flex-auto'>
+    <div style={{ minHeight: '100vh', marginTop: '20px' }}>
       <Box className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
         <Box className='flex-1'>
           <form className='flex flex-col gap-5' onSubmit={handleSubmit}>
