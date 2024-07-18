@@ -27,18 +27,24 @@ export default function Home() {
           </Typography>
         </Typography>
         <Typography variant="h3" component="div" sx={{ color: 'text.secondary', fontWeight: 'bold', mb: 2 }}>
-          place with ease
+          Learning Projects
         </Typography>
       </Box>
       <Typography variant="body1" sx={{ color: 'text.secondary', mb: 3 }}>
-        sachith Estate will help you find your home fast, easy, and comfortable. Our expert support is always available.
+      Welcome to landing page
+
+Discover a world of possibilities with our comprehensive solutions. 
+At landing page, we are committed to providing you with the best experience, tailored to meet your needs.
+ Explore our offerings, learn more about our mission, and get in touch with our team. Your journey to learn more starts here.
+
+
       </Typography>
       <Link component={RouterLink}  sx={{ color: 'primary.main', fontWeight: 'bold', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}>
         Let's Start now...
       </Link>
       <Greeting/>
       <Box sx={{ mt: 4 }}>
-        <img src="https://lirp.cdn-website.com/bf4fe880/dms3rep/multi/opt/estate+vs+a+house+-+Ranger+Ridge-1920w.jpeg" alt="home page photo" style={{ width: '100%', borderRadius: '8px' }} />
+        <img src="https://wallpaperaccess.com/full/198053.jpg" alt="home page photo" style={{ width: '100%', borderRadius: '8px' }} />
       </Box>
     </Box>
   );

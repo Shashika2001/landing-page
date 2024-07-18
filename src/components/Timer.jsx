@@ -13,7 +13,7 @@ const Time = () => {
 
   return (
     <div>
-      <h2>Current Time : {currentTime.toLocaleTimeString()}</h2>
+      <h2> Time : {currentTime.toLocaleTimeString()}</h2>
     </div>
   );
 };

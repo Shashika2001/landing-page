@@ -20,11 +20,12 @@ export default function Contact() {
   };
   
   return (
-    <div className='min-h-screen mt-20'>
+    <div className='min-h-screen mt-20 flex-auto'>
       <Box className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
         <Box className='flex-1'>
-          <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
-            <Box>
+          <form className='flex flex-col gap-5' onSubmit={handleSubmit}>
+            <div className='mb-5'>
+              <Box mb={1}>
               <TextField 
                 fullWidth
                 label="Your username" 
@@ -32,8 +33,10 @@ export default function Contact() {
                 placeholder="Username" 
                 id="username" 
               />
-            </Box>
-            <Box>
+              </Box>
+              <Box mb={1}>
+            
+            
               <TextField 
                 fullWidth
                 label="Your email" 
@@ -41,8 +44,10 @@ export default function Contact() {
                 placeholder="name@company.com" 
                 id="email" 
               />
-            </Box>
-            <Box>
+              </Box>
+              <Box mb={1}>  
+            
+            
               <TextField 
                 fullWidth
                 label="Your password" 
@@ -50,7 +55,8 @@ export default function Contact() {
                 placeholder="Message" 
                 id="message" 
               />
-            </Box>
+              </Box>
+            </div>
             <Button 
               variant="contained" 
               color="primary" 

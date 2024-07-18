@@ -8,22 +8,22 @@ import Greeting from '../components/Greeting';
 
 const teamMembers = [
   {
-    name: 'John Doe',
+    name: 'Sameera MAduranaga',
     role: 'CEO',
     image: 'https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg',
-    description: 'John is the CEO of the company and has over 20 years of experience in real estate.',
+    description: 'Sameera is the CEO of the company and has over 20 years of experience in real estate.',
   },
   {
-    name: 'Jane Smith',
+    name: 'Sachith Abeywardana',
     role: 'CTO',
     image: 'https://media.istockphoto.com/id/1167561020/photo/amazed-man-looking-at-camera-showing-with-hands-large-size.jpg?s=612x612&w=0&k=20&c=EyjESR5NzPVjLGbxEiCSsqt93x6jSUCOIYWRzmeqy6M=',
-    description: 'Jane is the CTO and leads the technology team with her expertise in software development.',
+    description: 'Sachith is the CTO and leads the technology team with her expertise in software development.',
   },
   {
-    name: 'Sam Wilson',
+    name: 'Ashan Kavinda',
     role: 'COO',
     image: 'https://media.istockphoto.com/id/955158514/photo/confident-ceo-talking-about-company-success-strategy.jpg?s=612x612&w=0&k=20&c=V5uNpcECrfY8jazEaelq6DVHPoRx4M67-tYbiV-RKK8=',
-    description: 'Sam is the COO and ensures smooth operations across all departments.',
+    description: 'Ashan is the COO and ensures smooth operations across all departments.',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function Home() {
       {/* Image and Text Side by Side Section */}
       <Box sx={{ display: 'flex', alignItems: 'center', mt: 8 }}>
         <Box sx={{ flex: 1, pr: 2 }}>
-          <img src="https://thumbs.dreamstime.com/z/team-teamwork-goals-strategy-vision-business-support-concept-50274164.jpg" alt="Side Image" style={{ width: '100%', borderRadius: '8px' }} />
+          <img src="http://clipartmag.com/images/thinking-face-clipart-22.jpg" alt="Side Image" style={{ width: '100%', borderRadius: '8px' }} />
         </Box>
         <Box sx={{ flex: 1, pl: 2 }}>
           <Typography variant="h4" sx={{ fontWeight: 'bold', mb: 2 }}>
